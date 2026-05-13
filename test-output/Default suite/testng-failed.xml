@@ -3,21 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Contact_Module.ContactModuleTest">
+      <class name="Contact_Module.CreateContact_Withorgnametest">
         <methods>
-          <include name="LaunchTheBrowser"/>
           <include name="CreateContact_With_orgnametest"/>
-          <include name="CloseConfigParallelExe"/>
-          <include name="Logout"/>
-          <include name="login"/>
-          <include name="ConnectWith_BD"/>
-          <include name="ConfigParallelExe"/>
-          <include name="CreateContact_WithSupportdates_test"/>
-          <include name="quitThebrowser"/>
-          <include name="Disconneted_DB"/>
-          <include name="CreateContact_Withlastname_test"/>
         </methods>
-      </class> <!-- Contact_Module.ContactModuleTest -->
+      </class> <!-- Contact_Module.CreateContact_Withorgnametest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
