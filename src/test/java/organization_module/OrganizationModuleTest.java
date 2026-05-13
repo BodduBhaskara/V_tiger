@@ -24,6 +24,8 @@ import vtiger_crm.organization_InformationPomPage;
 //@Listeners(ListenerUtility.Listeners.class)
 public class OrganizationModuleTest extends BaseClass {
 
+//this class used to org module
+
 	@Test(groups = "smoke",retryAnalyzer = ListenerUtility.RetryAnalyser.class)
 	public void Createorgname_With_Industery_Typetest()throws InterruptedException, EncryptedDocumentException, IOException {
 
@@ -537,5 +539,6 @@ public class OrganizationModuleTest extends BaseClass {
 		exc.closeExcel();
 		UtilityObjectClass.getTest().log(Status.INFO,"Close The Excel");
 		softas.assertAll();
+		
 	}
 }
