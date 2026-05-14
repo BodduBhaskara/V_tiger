@@ -1,6 +1,5 @@
 package Registor;
 
-import org.omg.CORBA.RepositoryIdHelper;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
