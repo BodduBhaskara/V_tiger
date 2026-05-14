@@ -28,6 +28,11 @@
           <include name="Createorgname_Withphonenumber_test"/>
         </methods>
       </class> <!-- organization_module.Createorgname_Withphonenumbertest -->
+      <class name="Contact_Module.CreateContact_Withorgnametest">
+        <methods>
+          <include name="CreateContact_With_orgnametest"/>
+        </methods>
+      </class> <!-- Contact_Module.CreateContact_Withorgnametest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
